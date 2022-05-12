@@ -9,7 +9,7 @@ int main()
     int lines = 0;
     string text;
     string name;
-    cout << "Input name of exe to convert or path including .exe\n>";
+    cout << "Name of exe to convert or path including .exe\n>";
     cin >> name;
     string cmd = "certutil -encode " + name + " output.txt";
     system(cmd.c_str());
@@ -31,6 +31,8 @@ int main()
     source_file << "    system(\"output.exe\");" << endl;
     source_file << "}";
     source_file.close();
-    return 0;
+    txtfile.close();
+    system("del output.txt");
+    system("pause");
 }
 
