@@ -1,3 +1,7 @@
+![image](https://user-images.githubusercontent.com/72428571/168156046-5400f8b5-0a2d-47ed-b9b3-173c1b6e2cc9.png)
+
+
+
 # Info/Basics
 Windows has a command called certutil that lets you convert an exe to a text file. You can also convert that text file back into an exe
 
